@@ -11,7 +11,7 @@
     <div id="calculate">
  
    <input type= "text" id="main" value="">
-   <button id="enter" > Enter </button>
+   <button id="enter" onClick="calc()"> Enter </button>
  </div>
 
  <div id="buttons1-3">
@@ -30,10 +30,10 @@
     <button id="three" onClick="information(9)"> 9</button>
  </div>
  <div id="operators">
-    <button id="add" data-value="+"> +</button>
-    <button id="subtract" data-value="-"> -</button>
-    <button id="multiply" data-value="*"> *</button>
-    <button id="divide" data-value="/"> /</button>
+    <button id="add"  onClick="information(+)"> +</button>
+    <button id="subtract" onClick="information('-')"> -</button>
+    <button id="multiply" onClick="information('*')"> *</button>
+    <button id="divide" onClick="information('/')"> /</button>
  </div>
  <div id="display">
 
