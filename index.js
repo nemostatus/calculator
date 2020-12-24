@@ -7,7 +7,7 @@ function calc(){
     let el =document.getElementById("main")
     let display =document.getElementById("display")
 display.innerHTML+= eval(el.value)
-el.value = "" //clears input once calculated
+
   
 }
 
