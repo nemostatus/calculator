@@ -4,6 +4,7 @@ document.getElementById("main").value= document.getElementById("main").value + n
 }
 
 function calc(){
-    let el =document.getElementById("display")
-   console.log(el.value)
+    let el =document.getElementById("main")
+   console.log(eval(el.value))
+  
 }
