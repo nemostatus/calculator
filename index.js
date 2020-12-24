@@ -5,6 +5,15 @@ document.getElementById("main").value= document.getElementById("main").value + n
 
 function calc(){
     let el =document.getElementById("main")
-   console.log(eval(el.value))
+    let display =document.getElementById("display")
+display.innerHTML+= eval(el.value)
   
 }
+
+function test(){
+   console.log("test")
+   document.getElementById("main").value = ""
+   let display =document.getElementById("display")
+   display.innerHTML=''
+}
+
